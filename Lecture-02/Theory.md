@@ -28,7 +28,7 @@ npx tsc --init
 
 ### Run TypeScript Code
 
-To compile the TypeScript code and then run the generated JavaScript file using a single command, we can add a **`dev` script** in `package.json`.
+To compile all the **TypeScript** files inside `/src` folder and then run the generated **JavaScript** file using a single command, we can add a **`dev` script** in `package.json`.
 
 ```json
 {
@@ -38,10 +38,10 @@ To compile the TypeScript code and then run the generated JavaScript file using 
 }
 ```
 
-Now, we can use the following command to compile the TypeScript code and run the generated JavaScript file:
+Now, we can use the following command to compile the **TypeScript** code and run the generated **JavaScript** file:
 
 ```bash
 npm run dev
 ```
 
-> **Note:** `tsc` compiles the TypeScript files according to the configuration in `tsconfig.json`, and `node dist/index.js` runs the generated JavaScript file.
+> **Note:** `tsc` compiles all the **TypeScript** files inside `/src` folder according to the configuration in `tsconfig.json`, and `node dist/index.js` runs the generated **JavaScript** file.
