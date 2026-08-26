@@ -41,7 +41,8 @@ let status: "pending" | "success" | "failed" = "pending";
 * Union types are especially useful for function parameters because they clearly define which values a function accepts.
 
 ```typescript
-function updateStatus(status: "pending" | "success" | "failed") {
+function updateStatus(status: "pending" | "success" | "failed") 
+{
     console.log(`Status: ${status}`);
 }
 
