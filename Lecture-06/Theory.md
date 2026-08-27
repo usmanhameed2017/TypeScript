@@ -69,6 +69,22 @@ console.log(detect(animal));
 
 * Similarly, `blueprint instanceof Animal` narrows the type to **`Animal`**.
 
+### `in` Type Guard
+
+* The `in` operator is another type guard. It is mainly used to check whether a property exists in an object.
+
+```typescript
+const user = {
+    name: "Usman",
+    age: 24,
+    email: "usman@gmail.com"
+};
+
+// Logs
+console.log("age" in user); // Output => true
+console.log("gender" in user); // Output => false
+```
+
 > **Note:** Type narrowing does not change the actual value. It only tells TypeScript which type a value has within a specific part of the code.
 
 ### Common Type Guards
