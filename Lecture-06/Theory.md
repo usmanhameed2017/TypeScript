@@ -10,7 +10,7 @@
 
 * The `typeof` operator can be used as a type guard to check the type of a value.
 
-```typescript id="w5k8qm"
+```typescript
 function demo(value: string | number): string
 {
     if(typeof value === "string") return `${value} is a string`;
@@ -31,7 +31,7 @@ console.log(demo(24));
 
 * The `instanceof` operator is another type guard. It is mainly used to check whether an object is an **instance of a particular class**.
 
-```typescript id="b6h3vx"
+```typescript
 class Human
 {
     public name = "Usman Hameed";
