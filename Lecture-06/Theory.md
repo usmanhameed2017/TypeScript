@@ -87,9 +87,7 @@ console.log("gender" in user); // Output => false
 
 > **Note:** Type narrowing does not change the actual value. It only tells TypeScript which type a value has within a specific part of the code.
 
-### Common Type Guards
-
-Some commonly used type guards are:
+### Summary
 
 * **`typeof`** — Checks primitive types such as `string`, `number`, and `boolean`.
 * **`instanceof`** — Checks whether an object is an instance of a specific class.
