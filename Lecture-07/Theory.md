@@ -15,8 +15,6 @@ data = "Usman Hameed";
 // Tell TypeScript to treat it as a `string`
 let name = data as string;
 console.log(name.toUpperCase());
-
-console.log((data as string).toUpperCase());
 ```
 
 > Note: You can also use round brackets `()` to access built-in methods directly, instead of storing it to a variable.
