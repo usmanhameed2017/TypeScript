@@ -9,18 +9,24 @@
 * Type assertion can be written using the **`as`** keyword.
 
 ```typescript
-let value: unknown = "Usman";
-let name = value as string;
+let data: unknown;
+data = "Usman Hameed";
+
+// Tell TypeScript to treat it as a `string`
+let name = data as string;
 console.log(name.toUpperCase());
+
+// Note: You can also use round brackets `()` to use built-in methods directly, instead of storing it to a variable.
+console.log((data as string).toUpperCase());
 ```
 
-* In the above example, `value` is originally `unknown`, but we tell TypeScript to treat it as a `string`.
+* In the above example, `data` is originally `unknown`, but we tell TypeScript to treat it as a `string`.
 
 * You can also use the angle-bracket syntax, but the `as` syntax is generally preferred, especially in projects that use JSX.
 
 ```typescript
-let value: unknown = "Usman";
-let name = <string>value;
+let data: unknown = "Usman";
+let name = <string>data;
 ```
 
 > **Note:** Type assertion does not perform any runtime type checking. If your assertion is incorrect, TypeScript will not automatically convert or validate the value.
