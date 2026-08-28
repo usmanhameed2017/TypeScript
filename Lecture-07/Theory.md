@@ -16,7 +16,15 @@ data = "Usman Hameed";
 let name = data as string;
 console.log(name.toUpperCase());
 
-// Note: You can also use round brackets `()` to use built-in methods directly, instead of storing it to a variable.
+console.log((data as string).toUpperCase());
+```
+
+> Note: You can also use round brackets `()` to access built-in methods directly, instead of storing it to a variable.
+
+```typescript
+let data: unknown;
+data = "Usman Hameed";
+
 console.log((data as string).toUpperCase());
 ```
 
