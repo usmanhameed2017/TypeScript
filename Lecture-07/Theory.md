@@ -10,9 +10,7 @@
 
 ```typescript
 let value: unknown = "Usman";
-
 let name = value as string;
-
 console.log(name.toUpperCase());
 ```
 
@@ -22,7 +20,6 @@ console.log(name.toUpperCase());
 
 ```typescript
 let value: unknown = "Usman";
-
 let name = <string>value;
 ```
 
@@ -36,7 +33,6 @@ let name = <string>value;
 
 ```typescript
 let value: any = "Usman";
-
 value = 24;
 value = true;
 value = { name: "Usman" };
@@ -46,9 +42,7 @@ value = { name: "Usman" };
 
 ```typescript
 let value: any = "Usman";
-
 console.log(value.toUpperCase());
-
 value = 24;
 
 console.log(value.toUpperCase()); // No TypeScript error
@@ -64,7 +58,6 @@ console.log(value.toUpperCase()); // No TypeScript error
 
 ```typescript
 let value: unknown = "Usman";
-
 value = 24;
 value = true;
 ```
@@ -73,7 +66,6 @@ value = true;
 
 ```typescript
 let value: unknown = "Usman";
-
 console.log(value.toUpperCase()); // Error
 ```
 
@@ -81,8 +73,7 @@ console.log(value.toUpperCase()); // Error
 
 ```typescript
 let value: unknown = "Usman";
-
-if (typeof value === "string")
+if(typeof value === "string")
 {
     console.log(value.toUpperCase());
 }
