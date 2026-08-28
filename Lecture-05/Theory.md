@@ -81,7 +81,7 @@ console.log(status);
 
 * This is useful when you want to restrict a variable or function parameter to a specific set of allowed values.
 
-> Note: You can also skip commas `,` when defining a custom type for an object.
+> Note: Commas `,` are optional when defining a custom type for an object.
 ```typescript
 type User = {
     name: string
