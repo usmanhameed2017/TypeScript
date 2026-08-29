@@ -160,7 +160,6 @@ const user: User = {
 
 ```typescript
 type Status = "pending" | "success" | "failed";
-
 type ID = string | number;
 ```
 
