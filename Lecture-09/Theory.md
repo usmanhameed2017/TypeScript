@@ -161,7 +161,7 @@ type User = {
     isActive?: boolean;
 };
 
-// Specific fields (name & age)
+// Specific fields (name, age & email)
 type SelectedFields = Pick<User, "name" | "age" | "email">;
 
 // Make them optional
