@@ -167,6 +167,7 @@ type SelectedFields = Pick<User, "name" | "age" | "email">;
 // Make them optional
 type PartialFields = Partial<SelectedFields>;
 
+// User object
 const user: PartialFields = {
     name: "Usman",
     age: 24
