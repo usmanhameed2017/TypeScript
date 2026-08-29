@@ -10,7 +10,7 @@
 
 ```typescript
 let data: unknown;
-data = "Usman Hameed"; // Despite initializing with string value, it is still of an `unknown` type
+data = "Usman Hameed"; // Despite initializing with a string value, it is still of an `unknown` type
 
 // Tell TypeScript to treat it as a `string`
 let name = data as string;
