@@ -30,7 +30,7 @@ status = "failed";  // Correct
 status = "loading"; // Error
 ```
 
-* You can also assign a default value while defining the variable.
+* You can also initialize a value to union type within a single line while defining the variable.
 
 ```typescript
 let status: "pending" | "success" | "failed" = "pending";
