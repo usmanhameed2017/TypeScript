@@ -9,8 +9,7 @@
 ### Basic Interface
 
 ```typescript
-interface PersonInterface
-{
+interface PersonInterface {
     name: string,
     age: number,
     email: string,
@@ -39,8 +38,7 @@ console.log(person);
 
 ```typescript
 // Interface
-interface PersonInterface
-{
+interface PersonInterface {
     name: string,
     age: number,
     email: string,
@@ -64,8 +62,7 @@ console.log(person);
 * When a class implements an interface, it must provide all the **required properties and methods** defined by that interface.
 
 ```typescript
-interface PersonInterface
-{
+interface PersonInterface {
     name: string,
     age: number,
     email: string
