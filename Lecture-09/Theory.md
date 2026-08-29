@@ -150,6 +150,7 @@ console.log(user);
 
 * You can also utilize a combination of `Pick` & `Partial`.
 ```typescript
+// Type
 type User = {
     name: string;
     nickname?: string;
