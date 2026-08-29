@@ -81,8 +81,23 @@ console.log(status);
 
 * This is useful when you want to restrict a variable or function parameter to a specific set of allowed values.
 
-> Note: Commas `,` are optional when defining a custom type for an object.
+> Note: Commas `,` and semi-colons `;` are optional when defining a custom type for an object.
 ```typescript
+// Correct - With commas
+type User = {
+    name: string,
+    age: number,
+    email: string
+};
+
+// Correct - With semi-colons
+type User = {
+    name: string;
+    age: number;
+    email: string;
+};
+
+// Correct - Without commas and semi-colons
 type User = {
     name: string
     age: number
