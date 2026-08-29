@@ -148,6 +148,33 @@ console.log(user);
 
 > **Note:** `Omit` does not actually delete properties from an existing object. It only creates a **new TypeScript type** without the specified properties.
 
+* You can also utilize a combination of `Pick` & `Partial`.
+```typescript
+type User = {
+    name: string;
+    nickname?: string;
+    age: number;
+    email: string;
+    password: string;
+    ipAddress: string;
+    isActive?: boolean;
+};
+
+// Specific fields (name & age)
+type SelectedFields = Pick<User, "name" | "age" | "email">;
+
+// Make them optional
+type PartialFields = Partial<SelectedFields>;
+
+const user: PartialFields = {
+    name: "Usman",
+    age: 24
+};
+
+// Output
+console.log(user);
+```
+
 ### Quick Summary
 
 | Special Type           | Purpose                             |
