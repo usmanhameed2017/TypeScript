@@ -155,7 +155,7 @@ function demo(): void
 
 * **No return value** → TypeScript infers `void`.
 
-* **Returns a value** → TypeScript infers the return type from the returned value.
+* **Returns a value** → TypeScript infers the **return type** based on the **returned value**.
 
 * **Explicit return type** → We can manually specify the return type.
 
