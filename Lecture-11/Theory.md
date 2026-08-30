@@ -134,7 +134,6 @@ console.log(getUserDetails({ name: "Usman", age: 24, email: "usman@gmail.com" })
 function demo(value: boolean): void
 {
     if(!value) return; // Exit function
-
     console.log("Value is true");
 }
 ```
