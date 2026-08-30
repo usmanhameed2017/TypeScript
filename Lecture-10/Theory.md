@@ -12,7 +12,6 @@
 
 ```typescript
 const users: string[] = ["Usman", "Bilal", "Ali", "Raheel"];
-
 console.log(users);
 ```
 
