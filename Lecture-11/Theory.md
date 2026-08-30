@@ -1,4 +1,4 @@
-### FUNCTION
+### FUNCTIONS
 
 * Functions in TypeScript can have **typed parameters** and a **typed return value**.
 
