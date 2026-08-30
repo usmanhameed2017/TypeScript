@@ -15,7 +15,7 @@ const users: string[] = ["Usman", "Bilal", "Ali", "Raheel"];
 console.log(users);
 ```
 
-* We can also use the **`Array<Type>`** syntax.
+* We can also use the generic syntax **`Array<Type>`**.
 
 ```typescript
 const users: Array<string> = ["Usman", "Bilal", "Ali", "Raheel"];
