@@ -257,7 +257,7 @@ enum Profiles
 ```typescript
 function demo(value: boolean): void
 {
-    if(!value) return;
+    if(!value) return; // Exit function
     console.log("Value is true");
 }
 ```
@@ -267,7 +267,7 @@ function demo(value: boolean): void
 ```typescript
 function demo(): void
 {
-    return console.log("Hello"); // Exit function
+    return console.log("Hello");
 }
 ```
 
