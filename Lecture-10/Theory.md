@@ -267,7 +267,7 @@ function demo(value: boolean): void
 ```typescript
 function demo(): void
 {
-    return console.log("Hello");
+    return console.log("Hello"); // Exit function
 }
 ```
 
